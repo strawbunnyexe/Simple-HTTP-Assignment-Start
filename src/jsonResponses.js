@@ -2,7 +2,7 @@ const text = require('./textResponses.js');
 
 const getHelloJSON = (request, response) => {
   const helloJSON = {
-    mesaage: text.hello,
+    message: text.hello,
   };
   const stringMessage = JSON.stringify(helloJSON);
 
